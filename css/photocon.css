@@ -1,0 +1,24 @@
+@charset "utf-8";
+
+/* body {
+    max-width: 1500px;
+    margin: auto;
+} */
+
+
+table {
+    border: 1px solid #00003A;
+    border-collapse: collapse;
+}
+
+table ul {
+    list-style: "〇";
+}
+
+th {
+    border: 1px solid #00003A;
+}
+
+table li {
+    white-space: pre-line;
+}
