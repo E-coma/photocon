@@ -1,18 +1,19 @@
 @charset "utf-8";
-
 body {
-    font-family: "UD デジタル 教科書体 N-R","Candara",sans-serif;
+    font-family: "UD デジタル 教科書体 N-R", "Candara", sans-serif;
     font-size: 18px;
     width: 1512px;
-    margin: auto; 
+    margin: auto;
 }
 
 header {
-    margin: 55px 0px 135px 0px ;
+    margin: 55px 0px 135px 0px;
 }
+
 nav {
     float: right;
 }
+
 nav ul {
     display: flex;
     list-style: none;
@@ -35,16 +36,16 @@ article {
 }
 
 h1 {
-    font-size: 22px;
+    font-size: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 h2 {
-    font-size: 20px;
-}
-.mainlogo{
-    position: absolute;
-    top: 48px;
-    left: 104.5px;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 218px;
+    margin-bottom: 40px;
 }
 
 .maintext {
@@ -53,9 +54,48 @@ h2 {
     margin-bottom: 217.5px;
 }
 
+.bumonimg {
+    display: block;
+    text-align: center;
+}
+
+
+/*応募リスト*/
+
+.list-oubo {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0%;
+}
+
+.list-oubo li {
+    font-size: 25px;
+    width: 33.3333%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bumon-text p {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 100px;
+}
+
+.bumonkome {
+    width: 500px;
+    font-size: 20px;
+    text-align: center;
+    border: 4px solid #00003A;
+    border-radius: 10px;
+    margin: auto;
+    margin-bottom: 143px;
+}
 
 
 /* ↓応募規約のテーブル */
+
 table {
     border: 1px solid #00003A;
     border-collapse: collapse;
