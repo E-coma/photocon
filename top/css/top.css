@@ -1,38 +1,7 @@
-@charset "utf-8";
-body {
-    font-family: "UD デジタル 教科書体 N-R", "Candara", sans-serif;
-    font-size: 18px;
-    width: 1512px;
-    margin: auto;
-}
-
-header {
-    margin: 55px 0px 135px 0px;
-}
-
-nav {
-    float: right;
-}
-
-nav ul {
-    display: flex;
-    list-style: none;
-    margin-top: 16px;
-}
-
-nav li {
-    padding-left: 30px;
-}
-
-nav li:last-child {
-    background-color: #E5E5E5;
-    padding: 2px 10px 1px 10px;
-    margin-left: 30px;
-}
-
-article {
-    clear: both;
-    position: relative;
+#top-img {
+    width: auto;
+    max-width: 1280px;
+    margin: 0 auto;
 }
 
 h1 {
