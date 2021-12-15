@@ -13,7 +13,7 @@ body {
     max-width: 1280px;
     height: 90px;
     margin: 0 auto;
-    padding: 30px 0px;
+    padding: 30px 10px;
     box-sizing: content-box;
 }
 
@@ -71,81 +71,12 @@ nav li:last-child {
 /* フッター */
 
 .footer {
+    width: auto;
+    height: 340px;
+    margin-top: 170px;
+    background-image: url(../../common/img/f-haikei.png);
+    background-repeat: repeat-x;
+    background-size: cover;
     position: relative;
-    z-index: 1;
-    margin-top: 8rem;
-    /* background-color: #E5E5E5;
-    margin-top: 180px;
-    padding: 0 270px;
-    box-sizing: content-box; */
-    /* 画像にする場合 */
-}
-
-.footer:after {
-    content: '';
-    display: block;
-    position: absolute;
-    top: -35.6rem;
-    left: calc(50% - 85.5rem);
-    z-index: 0;
-    width: 161rem;
-    height: 56rem;
-    background: url(../../common/img/footer-haikei.png) no-repeat center bottom;
-    background-size: contain;
-}
-
-#f-contener {
-    position: relative;
-    z-index: 1;
-    flex-wrap: wrap;
-    padding: 5rem 12rem;
-}
-
-#logomap {
-    width: 100%;
-    max-width: 100%;
-    display: flex;
-    margin-left: auto;
-}
-
-.f-minilogo {
-    width: 60%;
-    max-width: 100%;
-    text-align: left;
-    margin: auto;
-}
-
-#f-sitemap {
-    width: 100%;
-    max-width: 100%;
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    margin: auto
-}
-
-#f-sitemap ul {
-    list-style: none;
-    line-height: 2em;
-}
-
-#f-sitemap li {
-    width: 100%;
-    max-width: 100%;
-    white-space: nowrap;
-}
-
-address {
-    width: 100%;
-    margin-left: auto;
-    text-align: left;
-}
-
-#f-ad {
-    width: 100%;
-    max-width: 100%;
-    text-align: right;
-    padding-left: 80%;
-    padding-right: 20%;
-    margin-left: auto;
+    overflow: hidden;
 }
