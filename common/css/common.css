@@ -1,82 +1,106 @@
-@charset "utf-8";
-body {
-    font-family: "UD デジタル 教科書体 N-R", "Candara", sans-serif;
-    font-size: 18px;
-    margin: auto;
-}
-
-#header-top-wrap {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-    width: auto;
-    max-width: 1280px;
-    height: 90px;
-    margin: 0 auto;
-    padding: 30px 10px;
-    box-sizing: content-box;
-}
-
-#header-logo {
-    width: 50%;
-}
-
-#header-nav {
-    width: 50%;
-}
-
-#header-nav ul {
-    display: flex;
-    justify-content: flex-end;
-    list-style: none;
-}
-
-#header-nav li {
-    white-space: nowrap;
-    margin-left: 30px;
-}
-
-#header-nav li:last-child {
-    background-color: #E5E5E5;
-    padding: 2px 10px 1px 10px;
-    margin-left: 30px;
-}
-
-
-/* header {
-    margin: 55px 0px 135px 0px;
-}
-
-nav {
-    float: right;
-}
-
-nav ul {
-    display: flex;
-    list-style: none;
-    margin-top: 16px;
-}
-
-nav li {
-    padding-left: 30px;
-}
-
-nav li:last-child {
-    background-color: #E5E5E5;
-    padding: 2px 10px 1px 10px;
-    margin-left: 30px;
-} */
-
-
-/* フッター */
-
-.footer {
-    width: auto;
-    height: 340px;
-    margin-top: 170px;
-    background-image: url(../../common/img/f-haikei.png);
-    background-repeat: repeat-x;
-    background-size: cover;
-    position: relative;
-    overflow: hidden;
-}
+    @charset "utf-8";
+    body {
+        font-family: "UD デジタル 教科書体 N-R", "Candara", sans-serif;
+        font-size: 18px;
+        margin: auto;
+    }
+    
+    #header-top-wrap {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        width: auto;
+        max-width: 1280px;
+        height: 90px;
+        margin: 0 auto;
+        padding: 30px 10px;
+        box-sizing: content-box;
+    }
+    
+    #header-logo {
+        width: 50%;
+    }
+    
+    #header-nav {
+        width: 50%;
+    }
+    
+    #header-nav ul {
+        display: flex;
+        justify-content: flex-end;
+        list-style: none;
+    }
+    
+    #header-nav li {
+        white-space: nowrap;
+        margin-left: 30px;
+    }
+    
+    #header-nav li:last-child {
+        background-color: #E5E5E5;
+        padding: 2px 10px 1px 10px;
+        margin-left: 30px;
+    }
+    /* フッター */
+    
+    .footer {
+        width: auto;
+        height: 340px;
+        margin-top: 170px;
+        background-image: url(../../common/img/f-haikei.png);
+        background-repeat: repeat-x;
+        background-size: cover;
+        position: relative;
+        overflow: hidden;
+    }
+    
+    #logomap {
+        display: flex;
+        justify-content: left;
+        width: auto;
+        max-width: 1280px;
+        margin: 0 auto;
+        align-items: center;
+        margin-top: 112.5px;
+    }
+    
+    #f-minilogo img {
+        display: block;
+        padding: 0 10px;
+    }
+    
+    #f-sitemap {
+        display: flex;
+        margin: auto;
+    }
+    
+    #f-sitemap ul {
+        list-style: none;
+        line-height: 2.5rem;
+    }
+    /* レスポンシブ */
+    /* タブレット */
+    
+    @media screen and (max-width: 959px) {
+        #header-top-wrap {
+            display: block;
+        }
+        #header-nav ul {
+            padding-left: 0;
+            justify-content: flex-start;
+        }
+        #header-nav ul:first-child {
+            margin-left: 0;
+        }
+    }
+    /* スマホ */
+    
+    @media screen and (max-width: 599px) {
+        #header-nav {
+            display: none;
+        }
+        #logomap {
+            display: block;
+            font-size: 16px;
+        }
+    }
