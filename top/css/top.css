@@ -25,14 +25,13 @@
     h2 {
         font-size: 30px;
         text-align: center;
-        margin-top: 218px;
         margin-bottom: 40px;
     }
     
     .maintext {
         text-align: center;
         margin-top: 36px;
-        margin-bottom: 50px;
+        margin-bottom: 268px;
     }
     
     .bumonimg {
@@ -62,24 +61,20 @@
     #list-oubo figcaption {
         text-align: center;
         margin-top: 50px;
-        font-size: 25px;
+        font-size: 100%;
     }
     
     .bumon-text p {
-        font-size: 20px;
+        font-size: 100%;
         text-align: center;
-        margin-top: 70px;
-        margin-bottom: 100px;
+        margin-top: 100px;
+        margin-bottom: 80px;
     }
     
-    .bumonkome {
-        width: 500px;
-        font-size: 20px;
-        text-align: center;
-        border: 4px solid #00003A;
-        border-radius: 10px;
-        margin: auto;
-        margin-bottom: 143px;
+    .bumonkome img {
+        display: block;
+        margin: 0 auto;
+        padding-bottom: 85px;
     }
     /* 応募はこちら */
     
@@ -87,22 +82,23 @@
         width: auto;
         background-color: #EBF0F1;
         margin-top: 100px;
+        margin-bottom: 200px;
     }
     
     #oubo-text {
         display: block;
-        padding-top: 85px;
-    }
-    
-    #oubo-img {
-        width: 100%;
+        padding-top: 120px;
     }
     
     #oubo-img img {
         display: block;
         margin: 0 auto;
-        padding-bottom: 85px;
+        padding-bottom: 138px;
         padding-top: 50px;
+    }
+    
+    #oubo-img img:hover {
+        opacity: 0.6;
     }
     /* ↓応募規約のテーブル */
     
@@ -142,13 +138,24 @@
             margin: 0 auto;
         }
         h1 {
-            font-size: 0.8rem;
+            font-size: 1.1rem;
         }
         h2 {
-            font-size: 0.8rem;
+            font-size: 100%;
         }
         .maintext {
             font-size: 0.8rem;
+        }
+        .bumon-text p {
+            font-size: 80%;
+        }
+        .bumonkome img {
+            width: 100%;
+            height: auto;
+            margin: 0 auto;
+            padding-left: 10px;
+            padding-right: 10px;
+            box-sizing: border-box;
         }
         #list-oubo {
             display: block;
@@ -158,5 +165,16 @@
         #list-oubo img {
             width: 100%;
             height: auto;
+        }
+        #oubo-text {
+            font-size: 1.1rem;
+        }
+        #oubo-img img {
+            width: 100%;
+            height: auto;
+            margin: 0 auto;
+            padding-left: 10px;
+            padding-right: 10px;
+            box-sizing: border-box;
         }
     }
