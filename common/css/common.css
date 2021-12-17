@@ -2,7 +2,7 @@
     body {
         font-family: "UD デジタル 教科書体 N-R", "Candara", sans-serif;
         font-size: 18px;
-        margin: auto;
+        margin: 0 auto;
     }
     
     #header-top-wrap {
@@ -33,13 +33,13 @@
     
     #header-nav li {
         white-space: nowrap;
-        margin-left: 30px;
+        margin: 0 15px;
     }
     
-    #header-nav li:last-child {
+    #nav-mail {
         background-color: #E5E5E5;
         padding: 2px 10px 1px 10px;
-        margin-left: 30px;
+        margin: 0 15px;
     }
     /* フッター */
     
@@ -96,6 +96,13 @@
     /* スマホ */
     
     @media screen and (max-width: 599px) {
+        #header-top-wrap {
+            padding-left: 0;
+        }
+        #header-logo img {
+            width: 110%;
+            height: auto;
+        }
         #header-nav {
             display: none;
         }

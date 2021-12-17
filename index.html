@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="common/css/common.css">
-    <!-- <link rel="stylesheet" href="top/css/top.css"> -->
+    <link rel="stylesheet" href="top/css/top.css">
     <title>私の琵琶湖フォトコンテスト</title>
 </head>
 
@@ -20,18 +20,27 @@
                 <nav>
                     <ul>
                         <li>トップページ</li>
-                        <li>応募はこちら</li>
-                        <li>応募部門</li>
-                        <li>応募規約</li>
-                        <li>お問い合わせ</li>
+                        <a href="form/index.html">
+                            <li>応募はこちら</li>
+                        </a>
+                        <a href="#list-oubo">
+                            <li>応募部門</li>
+                        </a>
+                        <a href="#oubo-rule">
+                            <li>応募規約</li>
+                        </a>
+                        <a id="nav-mail" href="contact/index.html">
+                            <li>お問い合わせ</li>
+                        </a>
                     </ul>
                 </nav>
             </div>
         </div>
     </header>
-    <!-- <article>
+    <article>
         <div id="top-img">
-            <img src="top/img/top-img.png" width="1280px" height="725.5px" alt="琵琶湖の写真">
+            <img id="pc-img" src="top/img/top-img.png" width="1280px" height="725.5px" alt="琵琶湖の写真">
+            <img id="sp-img" src="top/img/sumaho-topimg.png" width="390px" alt="琵琶湖の画像">
         </div>
     </article>
     <section>
@@ -39,76 +48,72 @@
             <h1>私の琵琶湖</h1>
             <p>訪れるたびに違う景色を魅せてくれる琵琶湖。</p>
             <p>どんな琵琶湖も、映した写真はあなただけのもの。</p>
-            <p>そんなみなさんの素敵な琵琶湖の写真を共有しませんか？しませんか？</p>
+            <p>そんなみなさんの素敵な琵琶湖の写真を共有しませんか？</p>
             <p>「まだ知らない琵琶湖のすばらしさに触れたい」</p>
             <p>そんな思いから開催を決定しました。</p>
         </div>
     </section>
     <section>
         <h2>応募部門</h2>
-        <ul class="list-oubo">
-            <li>
-                <div class="bumonimg">
-                    <img src="top/img/sumaho-img.png" width="412" height="400" alt="">
-                    <p class="ttl">スマートフォン部門</p>
-                    <img src="top/img/kasen-img.png" width="408" height="16" alt="">
-            </li>
-            <li>
-                <img src="top/img/itigan-img.png" width="412" height="400" hspace="88" alt="">
-                <p class="ttl">一眼レフ部門</p>
-                <img src="top/img/kasen-img.png" width="408" height="16" alt="">
-            </li>
-            <li>
-                <img src="top/img/film-img.png" width="412" height="400" alt="">
-                <p class="ttl">フィルムカメラ部門</p>
-                <img src="top/img/kasen-img.png" width="408" height="16" alt="">
-            </li>
-        </ul>
+        <div id="list-oubo">
+            <figure>
+                <img src="top/img/sumaho-img.png" width="360.5px" height="349.86px" alt="">
+                <figcaption>スマートフォン部門</figcaption>
+            </figure>
+            <figure>
+                <img src="top/img/itigan-img.png" width="360.5px" height="349.86px" alt="">
+                <figcaption>一眼レフ部門</figcaption>
+            </figure>
+            <figure>
+                <img src="top/img/film-img.png" width="360.5px" height="349.86px" alt="">
+                <figcaption>フィルムカメラ部門</figcaption>
+            </figure>
         </div>
         <div class="bumon-text">
             <p>お手持ちのどんなカメラでもご参加できます。</p>
         </div>
-        <div class="bumonkome">
-            <p><span class="komezi">※</span>お一人様、一部門のみの参加でお願いいたします</p>
+        <!-- <div class="bumonkome"> -->
+        <!-- <p><span class="komezi">※</span>お一人様、一部門のみの参加でお願いいたします</p> -->
         </div>
     </section>
     <section>
-        <div class="haikei-img">
-            <img src="top/img/oubo-haikei.png" width="1922.7px" height="685.74px" alt="">
+        <div id="oubo-form">
+            <h2 id="oubo-text">応募フォーム</h2>
+            <a id="oubo-img" href="form/index.html"><img src="top/img/oubobtn.png" width="450px" alt="応募ボタン"></a>
         </div>
-        <h2>応募フォーム</h2> -->
-    <!-- 応募はこちらからのボタンを画像でいれる。リンク -->
-    <!-- </section>
+    </section>
     <section>
-        <table>
-            <caption>応募規約</caption>
-            <tr>
-                <th>応募規約</th>
-                <td>
-                    <ul>
-                        <li>著しく加工された写真はご遠慮ください。 　(合成や複数の写真を組み合わせたもの）
-                        </li>
-                        <li>第三者のプライバシーやその他の権利を侵害する恐れのある作品はご遠慮ください。 　被写体の方が写っておられる場合は、必ず許可を得てください。未成年の方が被写体である場合は、親権者の許可が必要です。 　また、著作権や肖像権の違反が行われた場合、それらの責任は負いかねますのでよろしくお願いします。
-                        </li>
-                        <li>選考後のご連絡は返信いたしません。当選した方にのみ選考後ご連絡いたします。</li>
-                        <li>お一人様、一部門でのご応募になります。複数の作品をお送りされた場合は、選考できかねませんのでご注意ください。</li>
-                        <li>違反行為が見受けられる作品におきましては、選考外となりますのでよろしくお願いいたします。</li>
-                    </ul>
-                </td>
-            </tr>
-            <tr>
-                <th>応募サイズ</th>
-                <td>
-                    作品データは、JPEG形式で応募フォームにてお送りください。10MB以下に調整お願いいたします。（2MB以上推薦）
-                </td>
-            </tr>
-            <tr>
-                <th>応募期間</th>
-                <td>20XX年00月00日～20XX年XX月XX日</td> -->
-    <!-- 文字大きくする -->
-    <!-- </tr>
-        </table>
-    </section> -->
+        <div id="oubo-rule">
+            <table>
+                <caption>応募規約</caption>
+                <tr>
+                    <th>応募規約</th>
+                    <td>
+                        <ul>
+                            <li>著しく加工された写真はご遠慮ください。 　(合成や複数の写真を組み合わせたもの）
+                            </li>
+                            <li>第三者のプライバシーやその他の権利を侵害する恐れのある作品はご遠慮ください。 　被写体の方が写っておられる場合は、必ず許可を得てください。未成年の方が被写体である場合は、親権者の許可が必要です。 　また、著作権や肖像権の違反が行われた場合、それらの責任は負いかねますのでよろしくお願いします。
+                            </li>
+                            <li>選考後のご連絡は返信いたしません。当選した方にのみ選考後ご連絡いたします。</li>
+                            <li>お一人様、一部門でのご応募になります。複数の作品をお送りされた場合は、選考できかねませんのでご注意ください。</li>
+                            <li>違反行為が見受けられる作品におきましては、選考外となりますのでよろしくお願いいたします。</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <th>応募サイズ</th>
+                    <td>
+                        作品データは、JPEG形式で応募フォームにてお送りください。10MB以下に調整お願いいたします。（2MB以上推薦）
+                    </td>
+                </tr>
+                <tr>
+                    <th>応募期間</th>
+                    <td>20XX年00月00日～20XX年XX月XX日</td>
+                    <!-- 文字大きくする -->
+                </tr>
+            </table>
+        </div>
+    </section>
     <footer class="footer">
         <div id="logomap">
             <div id="f-minilogo">
