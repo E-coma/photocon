@@ -80,6 +80,7 @@
     /* 応募はこちら */
     
     #oubo-form {
+        height: 25rem;
         width: auto;
         background-color: #EBF0F1;
         margin-top: 100px;
@@ -94,8 +95,6 @@
     #oubo-img img {
         display: block;
         margin: 0 auto;
-        padding-bottom: 138px;
-        padding-top: 50px;
     }
     
     #oubo-img img:hover {
@@ -157,6 +156,12 @@
             padding-left: 10px;
             padding-right: 10px;
             box-sizing: border-box;
+        }
+        figure {
+            margin-bottom: 72px;
+        }
+        #list-oubo figcaption {
+            margin-top: 20px;
         }
         #list-oubo {
             display: block;
