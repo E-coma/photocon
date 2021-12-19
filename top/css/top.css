@@ -84,7 +84,7 @@
         width: auto;
         background-color: #EBF0F1;
         margin-top: 100px;
-        margin-bottom: 200px;
+        margin-bottom: 180px;
     }
     
     #oubo-text {
@@ -103,8 +103,16 @@
     /* ↓応募規約のテーブル */
     
     table {
+        max-width: 1280px;
         border: 1px solid #00003A;
         border-collapse: collapse;
+        margin: 0 auto;
+    }
+    
+    caption {
+        margin-bottom: 40px;
+        font-size: 30px;
+        font-weight: bold;
     }
     
     table ul {
@@ -113,14 +121,17 @@
     
     th {
         border: 1px solid #00003A;
+        padding: 10px;
     }
     
     td {
         border: 1px solid #00003A;
+        padding: 10px;
     }
     
     table li {
         white-space: pre-line;
+        padding-bottom: 10px;
     }
     /* タブレット */
     
@@ -182,5 +193,15 @@
             padding-left: 10px;
             padding-right: 10px;
             box-sizing: border-box;
+        }
+        table {
+            margin: 0 10px;
+            font-size: 0.9rem;
+        }
+        table caption {
+            font-size: 1.1rem;
+        }
+        table th {
+            writing-mode: vertical-rl;
         }
     }

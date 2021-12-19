@@ -45,7 +45,7 @@ body {
     margin: 0 15px;
 }
 
-header a {
+a {
     text-decoration: none;
     color: #00003a;
 }
@@ -83,6 +83,11 @@ header a:hover {
     background-size: cover;
     position: relative;
     overflow: hidden;
+}
+
+.footer a:hover {
+    color: #7272eb;
+    opacity: 0.3;
 }
 
 #logomap {
