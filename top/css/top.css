@@ -135,7 +135,12 @@
     }
     /* タブレット */
     
-    @media screen and (max-width: 959px) {}
+    @media screen and (max-width: 959px) {
+        #top-img {
+            max-width: 100%;
+            height: auto;
+        }
+    }
     /* スマホ */
     
     @media screen and (max-width: 599px) {
@@ -156,6 +161,7 @@
         }
         .maintext {
             font-size: 0.8rem;
+            margin-bottom: 100px;
         }
         .bumon-text p {
             font-size: 80%;
@@ -203,5 +209,10 @@
         }
         table th {
             writing-mode: vertical-rl;
+        }
+        #f-minilogo img {
+            width: 50%;
+            height: auto;
+            margin-left: 25px;
         }
     }
