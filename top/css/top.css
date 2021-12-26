@@ -80,7 +80,7 @@
     /* 応募はこちら */
     
     #oubo-form {
-        height: 25rem;
+        height: 30rem;
         width: auto;
         background-color: #EBF0F1;
         margin-top: 100px;
@@ -89,7 +89,7 @@
     
     #oubo-text {
         display: block;
-        padding-top: 120px;
+        padding-top: 160px;
     }
     
     #oubo-img img {
@@ -132,6 +132,11 @@
     table li {
         white-space: pre-line;
         padding-bottom: 10px;
+    }
+    
+    .jump {
+        padding-top: 130px;
+        margin-top: -70px;
     }
     /* タブレット */
     
