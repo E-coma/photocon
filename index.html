@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="js/hamburger.js" defer></script>
     <link rel="stylesheet" href="common/css/common.css">
     <link rel="stylesheet" href="top/css/top.css">
     <title>私の琵琶湖フォトコンテスト</title>
@@ -16,7 +18,12 @@
             <div id="header-logo">
                 <img src="common/img/minilogo.png" width="301" height="48" alt="私の琵琶湖">
             </div>
-            <div id="header-nav">
+            <div id="drawer-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div id="header-nav-pc">
                 <nav>
                     <ul>
                         <a href="form/index.html">
@@ -28,7 +35,25 @@
                         <a href="#oubo-rule">
                             <li>応募規約</li>
                         </a>
-                        <a id="nav-mail" href="contact/index.html">
+                        <a class="nav-mail" href="contact/index.html">
+                            <li>お問い合わせ</li>
+                        </a>
+                    </ul>
+                </nav>
+            </div>
+            <div id="header-nav-sp">
+                <nav>
+                    <ul>
+                        <a href="form/index.html">
+                            <li>応募はこちら</li>
+                        </a>
+                        <a href="#bumon-top">
+                            <li>応募部門</li>
+                        </a>
+                        <a href="#oubo-rule">
+                            <li>応募規約</li>
+                        </a>
+                        <a class="nav-mail" href="contact/index.html">
                             <li>お問い合わせ</li>
                         </a>
                     </ul>
