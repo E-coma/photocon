@@ -1,1 +1,60 @@
 @charset "utf-8";
+
+
+.formtitle {
+    width: 100%;
+    background-color: #EBF0F1;
+    padding: 10px;
+    text-align: center;
+}
+.formtitle h1 {
+    margin: 0;
+}
+.form-main {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.form-main h2 {
+    font-size: 20px;
+}
+input[type=radio] {
+    display: none;
+}
+.radio01 {
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-block;
+    padding: 5px 30px;
+    position: relative;
+    width: auto;
+}
+.radio01::before {
+    background: #fff;
+    border: 1px solid #231815;
+    border-radius: 50%;
+    content: '';
+    display: block;
+    height: 16px;
+    left: 5px;
+    margin-top: -9px;
+    position: absolute;
+    top: 50%;
+    width: 16px;
+}
+.radio01::after {
+    background: #00003A;
+    border-radius: 50%;
+    content: '';
+    display: block;
+    height: 10px;
+    left: 9px;
+    margin-top: -5px;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    width: 10px;
+}
+input[type=radio]:checked + .radio01::after {
+    opacity: 1;
+}
