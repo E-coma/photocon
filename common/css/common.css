@@ -9,12 +9,12 @@ body {
 #header-top-wrap {
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: center;
     width: auto;
     max-width: 1280px;
-    height: 90px;
+    height: 20px;
     margin: 0 auto;
-    padding: 30px 10px;
+    padding: 20px 10px 30px 10px;
     box-sizing: content-box;
 }
 
@@ -85,7 +85,7 @@ header nav a:hover {
 .footer {
     width: auto;
     height: 340px;
-    margin-top: 170px;
+    margin-top: 240px;
     background-image: url(../../common/img/f-haikei.png);
     background-repeat: repeat-x;
     background-size: cover;
@@ -192,7 +192,7 @@ header nav a:hover {
     #header-nav-sp ul {
         display: block;
         text-align: center;
-        padding: 50% 0;
+        padding: 20% 0 70% 0;
     }
     #header-nav-sp li {
         padding: 30px;
@@ -211,7 +211,7 @@ header nav a:hover {
         background-color: #fff;
         opacity: 0.9;
         position: fixed;
-        top: 60px;
+        top: 50px;
         width: 100%;
         display: none;
     }
