@@ -16,6 +16,7 @@ body {
     margin: 0 auto;
     padding: 20px 10px 30px 10px;
     box-sizing: content-box;
+    z-index: 1000;
 }
 
 #header-logo {
@@ -192,7 +193,7 @@ header nav a:hover {
     #header-nav-sp ul {
         display: block;
         text-align: center;
-        padding: 20% 0 70% 0;
+        padding: 20% 0 100% 0;
     }
     #header-nav-sp li {
         padding: 30px;
