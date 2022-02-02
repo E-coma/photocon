@@ -71,23 +71,16 @@ input[type=radio]:checked+.radio01::after {
     opacity: 1;
 }
 
-#preview-area {
-    width: 600px;
-    height: 300px;
+#filearea {
+    width: 345px;
+    height: 130px;
     border: 1px solid #00003A;
     object-fit: cover;
     background-color: #fff;
     text-align: center;
 }
 
-#preview-area p {
-    color: #00003a63;
-    margin-top: 109px;
-    text-align: center;
-    font-size: 24px;
-}
-
-#preview-area input {
+#filearea input {
     margin-top: 50px;
 }
 
